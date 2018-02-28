@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-classname-preprocessor'
+  name: 'ember-classnames-preprocessor'
 };

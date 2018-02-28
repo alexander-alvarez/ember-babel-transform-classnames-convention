@@ -1,7 +1,7 @@
 {
-  "name": "ember-classname-preprocessor",
+  "name": "ember-classnames-preprocessor",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Preprocessor for automatically adding classnames that match the component file name",
   "keywords": [
     "ember-addon"
   ],
@@ -49,5 +49,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "main": "./src/index.js"
 }
