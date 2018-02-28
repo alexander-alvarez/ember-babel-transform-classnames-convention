@@ -7,8 +7,10 @@ module.exports = function(defaults) {
   let app = new EmberAddon(defaults, {
     babel: {
       plugins: [EmberBabelClassNamesPreprocessor]
+    },
+    'ember-cli-babel': {
+      includePolyfill: true
     }
-    // Add options here
   });
 
   /*
