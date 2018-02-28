@@ -1,12 +1,23 @@
-# ember-classname-preprocessor
+# ember-babel-transform-classnames-convention
+Note this is a proof of concept and not fully tested. Your mileage may vary.
 
-This README outlines the details of collaborating on this Ember addon.
+Transforms:
+```js
+// components/user-component.js
+export default Component.extend({
+  // properties
+});
+```
+To:
+```js
+// components/user-component.js
+export default Component.extend({
+  classNames: ['user-component']
+});
+```
 
 ## Installation
-
-* `git clone <repository-url>` this repository
-* `cd ember-classname-preprocessor`
-* `npm install`
+N/A
 
 ## Running
 
