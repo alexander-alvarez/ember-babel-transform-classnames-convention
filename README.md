@@ -17,7 +17,19 @@ export default Component.extend({
 ```
 
 ## Installation
-N/A
+```js
+const EmberBabelClassNamesPreprocessor = require('ember-babel-transform-classnames-convention');
+// ...
+
+module.exports = function(defaults) {
+  let app = new EmberApp(defaults, {
+    babel: {
+      plugins: [EmberBabelClassNamesPreprocessor]
+    }
+    // ...
+  });
+};
+```
 
 ## Running
 
