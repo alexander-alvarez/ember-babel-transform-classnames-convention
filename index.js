@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-classnames-preprocessor'
+  name: 'ember-babel-transform-classnames-convention'
 };
